@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="date">
+        <div class="date-1">
+          Day
+          <input type="text" placeholder="DD" type="number" step="1" pattern="[0-9]+" class="styled-input" id="day-input" maxlength="2">
+          <div class="error-message" id="day-error">Dia incorrecto</div>
+        </div>
+        <div class="date-2">
+          Month
+          <input type="text" placeholder="MM" type="number" step="1" pattern="[0-9]+" class="styled-input" id="month-input" maxlength="2">
+          <div class="error-message" id="month-error">Mes incorrecto</div>
+        </div>
+        <div class="date-3">
+          Year
+          <input type="text" placeholder="YYYY" type="number" step="1" pattern="[0-9]+" class="styled-input" id="year-input" maxlength="4">
+          <div class="error-message" id="year-error">Año incorrecto</div>
+        </div>
+        
+      </div>
+      <div class="line-btn">
+          <div class="linea">
+          <button id="btn">
+            <i class="fa-brands fa-nfc-directional"></i>
+          </button>
+        </div> 
+      </div>
+     <div class="container-bot">
+      <h1><span id="years">--</span> Years</h1> 
+      <h1><span id="months">--</span> Months</h1>
+      <h1><span id="days">--</span> Days</h1>
+    </div> 
+      
+    </div>
+   
+  </body>
+  <script src="https://kit.fontawesome.com/e2d26f18b3.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</html>

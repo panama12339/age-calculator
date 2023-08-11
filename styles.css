@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: antiquewhite;
+  }
+.container{
+    background-color: #ffffff;
+    width: 500px;
+    height: 500px;
+    border-radius: 25px 25px 150px 25px;
+}
+
+
+
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 40px;
+ 
+    
+}
+
+
+
+.date input{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: transparent;
+    border: 1px solid rgb(179, 160, 160);
+}
+::placeholder{
+  font-family: 'Poppins';
+  font-size: 15px;
+  align-items: center;
+  color: #b1b1b1;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.date-1{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 10px;  
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.date-2{
+    display: flex;
+    flex-direction: column ; 
+    font-family: 'Poppins';
+    font-weight: bold; 
+    font-size: 10px;  
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.date-3{
+    display: flex;
+    flex-direction: column ;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 10px;  
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.line-btn {
+    position: relative;
+    display: inline-flex;
+    padding-left: 50px;
+  }
+  
+.linea {
+  width: 400px; /* Ancho de la línea */
+  height: 1px; /* Grosor de la línea */
+  background-color: rgb(77, 53, 53); /* Color de la línea */
+  display: flex;
+  align-items: center;
+}
+  
+button {
+  position: absolute;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: transparent;
+  background-color: rgb(159, 92, 222);
+}
+
+i{
+  color: #ffffff;
+  font-size: 25px;
+}
+.container-bot{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.container-bot h1{
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Poppins';
+}
+.container-bot span{
+  color: blueviolet;
+}
+#btn{
+  cursor: pointer;
+}
+.error {
+  border: 1px solid red;
+}
+
+.error-message {
+  display: none;
+  color: red;
+  font-size: 10px;
+  letter-spacing: 0px;
+}
